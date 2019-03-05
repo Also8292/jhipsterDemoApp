@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "students_level",
+            "otherEntityName": "students",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "years",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20190302215511",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "level",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
